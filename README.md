@@ -65,8 +65,8 @@ base = vector.obj(x=0, y=0)
 ```
 *Note that `links_config` should have at least as many entries as the value of `N_LINKS` as indicated by the assertion.*
 
-**This code is completely scalable and can work with several links, but the simulation drastically slows down when the number of links is increase. This is because of
-how much `matplotlib` has to draw for each iteration. To improve performance, some of the aesthetic components can be removed from the plots such as gridlines and
+**This code is completely scalable and can work with several links, but the simulation drastically slows down when the number of links is increased. This is because of
+how much `matplotlib` has to draw in each iteration. To improve performance, some of the aesthetic components can be removed from the plots such as gridlines and
 legends.**
 
 
